@@ -1,9 +1,12 @@
 Instruções para rodar o projeto
 
-1-rodar o migrate: php artisan migrate
+1-baixar o projeto
 
-2-criar usuario adminitrador usando o seed: php artisan db:seed 
+2-rodar o migrate: php artisan migrate
 
-3-preencher tabela de estados usando seed: php artisan db:seed --class=EstadoSeeder
+3-criar usuario adminitrador usando o seed: php artisan db:seed 
+    ->dados de acesso predefinidos,cpf=admin senha=password 
 
-4-rodar o projeto usando:php artisan serve
+4-preencher tabela de estados usando seed: php artisan db:seed --class=EstadoSeeder
+
+5-rodar o projeto usando:php artisan serve
